@@ -5,12 +5,14 @@ In this project, we will build a model to classify messages that are sent during
 
 Finally, this project contains a web app where you can input a message and get classification results.
 
-![Screenshot of Web App](./img/Screenshot_2.PNG)
+![Screenshot of Web App](Screenshot_2.PNG)
 
 ## Files Structure
 ~~~~~~~
-		disaster_response_pipeline
+	disaster_response_pipeline
 		│   README.md
+		│   Screenshot_1.png
+		│   Screenshot_2.png
 		│
 		├───app
 		│   │   run.py
@@ -20,13 +22,10 @@ Finally, this project contains a web app where you can input a message and get c
 		│           master.html
 		│
 		├───data
-		│   │   DisasterResponse.db
-		│   │   disaster_categories.csv
-		│   │   disaster_messages.csv
-		│   │   process_data.py
-		│   │
-		│   └───.ipynb_checkpoints
-		│           ML Pipeline Preparation-checkpoint.ipynb
+		│       DisasterResponse.db
+		│       disaster_categories.csv
+		│       disaster_messages.csv
+		│       process_data.py
 		│
 		├───data_prep
 		│   │   DisasterResponse.db
@@ -37,10 +36,6 @@ Finally, this project contains a web app where you can input a message and get c
 		│           categories.csv
 		│           DisasterResponse.db
 		│           messages.csv
-		│
-		├───img
-		│       Screenshot_1.png
-		│       Screenshot_2.png
 		│
 		└───models
 				Classifier.pkl
@@ -89,4 +84,4 @@ git clone https://github.com/msobrinoestevez/Disaster-response-pipelines
 
 1. Input: we need help to overcome the coronavirus. masks, doctors, nurses. We need water and military protection
 2. Predicted classes:
-![Screenshot of Predicted Classes](../img/Screenshot_1.PNG)
+![Screenshot of Predicted Classes](Screenshot_1.PNG)
