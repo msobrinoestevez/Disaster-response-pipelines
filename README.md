@@ -5,35 +5,46 @@ In this project, we will build a model to classify messages that are sent during
 
 Finally, this project contains a web app where you can input a message and get classification results.
 
-![Screenshot of Web App](../img/Screenshot_2.PNG)
+![Screenshot of Web App](/img/Screenshot_2.PNG)
 
-## File Description
+## Files Structure
 ~~~~~~~
-        disaster_response_pipeline
-          |-- app
-                |-- templates
-                        |-- go.html  # classification result page of web application
-                        |-- master.html # main page of web application
-                |-- run.py
-          |-- data
-                |-- disaster_message.csv # data to process
-                |-- disaster_categories.csv # data to process
-                |-- DisasterResponse.db # database to save clean data to
-                |-- process_data.py
-          |-- models
-                |-- Classifier.pkl # saved model
-                |-- train_classifier.py
-          |-- data_prep
-		        |-- data
-						|-- categories.csv
-						|-- messages.csv
-                |-- ETL Pipeline Preparation.ipynb
-                |-- ETL_Preparation.db
-                |-- ML Pipeline Preparation.ipynb
-		  |-- img
-				|-- Screenshot_1.png
-				|-- Screenshot_2.png				
-          |-- README
+		disaster_response_pipeline
+		│   README.md
+		│
+		├───app
+		│   │   run.py
+		│   │
+		│   └───templates
+		│           go.html
+		│           master.html
+		│
+		├───data
+		│   │   DisasterResponse.db
+		│   │   disaster_categories.csv
+		│   │   disaster_messages.csv
+		│   │   process_data.py
+		│   │
+		│   └───.ipynb_checkpoints
+		│           ML Pipeline Preparation-checkpoint.ipynb
+		│
+		├───data_prep
+		│   │   DisasterResponse.db
+		│   │   ETL Pipeline Preparation.ipynb
+		│   │   ML Pipeline Preparation.ipynb
+		│   │
+		│   └───data
+		│           categories.csv
+		│           DisasterResponse.db
+		│           messages.csv
+		│
+		├───img
+		│       Screenshot_1.png
+		│       Screenshot_2.png
+		│
+		└───models
+				Classifier.pkl
+				train_classifier.py
 ~~~~~~~
 ## Installation
 
