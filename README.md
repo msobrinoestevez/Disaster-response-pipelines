@@ -5,7 +5,7 @@ In this project, we will build a model to classify messages that are sent during
 
 Finally, this project contains a web app where you can input a message and get classification results.
 
-![Screenshot of Web App](Screenshot_2.PNG)
+![Screenshot of Web App](Screenshot_2.png)
 
 ## Files Structure
 ~~~~~~~
@@ -82,4 +82,4 @@ git clone https://github.com/msobrinoestevez/Disaster-response-pipelines
 
 1. Input: we need help to overcome the coronavirus. masks, doctors, nurses. We need water and military protection
 2. Predicted classes:
-![Screenshot of Predicted Classes](Screenshot_1.PNG)
+![Screenshot of Predicted Classes](Screenshot_1.png)
