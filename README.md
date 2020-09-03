@@ -55,7 +55,7 @@ This project requires Python 3.x and the following Python libraries:
 2. Data folder containing "DisasterResponse.db", "disaster_categories.csv", "disaster_messages.csv" and "process_data.py" for data cleaning and transfering.
 3. Models folder including "Classifier.pkl" and "train_classifier.py" for the Machine Learning model.
 4. README file
-5. Preparation folder containing 6 different files, which were used for the project building. (Please note: this folder is not necessary for this project to run.)
+5. data_prep folder containing 6 different files, which were used for the project building. (Please note: this folder is not necessary for this project to run.)
 
 
 ## Instructions
@@ -77,8 +77,6 @@ git clone https://github.com/msobrinoestevez/Disaster-response-pipelines
 
 4. Go to http://0.0.0.0:3001/
 
-
-### NOTICE: data_prep folder is not necessary for this project to run.
 
 ## Example
 
